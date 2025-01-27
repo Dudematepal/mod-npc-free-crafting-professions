@@ -9,7 +9,7 @@
 void AddSC_Professions();
 
 // Add all
-void Addmod_npc_free_professionsScripts()
+void Addmod_npc_free_crafting_professionsScripts()
 {
     AddSC_Professions();
 }
