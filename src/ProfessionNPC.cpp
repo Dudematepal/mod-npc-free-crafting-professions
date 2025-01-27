@@ -19,12 +19,8 @@ public:
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Enchanting", GOSSIP_SENDER_MAIN, SKILL_ENCHANTING);
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Jewelcrafting", GOSSIP_SENDER_MAIN, SKILL_JEWELCRAFTING);
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Inscription", GOSSIP_SENDER_MAIN, SKILL_INSCRIPTION);
-        AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Herbalism", GOSSIP_SENDER_MAIN, SKILL_HERBALISM);
-        AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Skinning", GOSSIP_SENDER_MAIN, SKILL_SKINNING);
-        AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Mining", GOSSIP_SENDER_MAIN, SKILL_MINING);
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Cooking", GOSSIP_SENDER_MAIN, SKILL_COOKING);
         AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "First Aid", GOSSIP_SENDER_MAIN, SKILL_FIRST_AID);
-        AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "Fishing", GOSSIP_SENDER_MAIN, SKILL_FISHING);
 
         SendGossipMenuFor(player, DEFAULT_GOSSIP_MESSAGE, creature);
         return true;
